@@ -1,0 +1,93 @@
+@import url(./basic.css);
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--lightblue);
+    padding: 1rem 3rem;
+    font-weight: 500;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: var(--white);
+}
+
+.navbar .navbar-title {
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.navbar .navbar-menu {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu a {
+    margin-right: 2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit
+}
+
+.mainpage-container {
+    margin: 5% auto;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 55%;
+}
+
+.mainpage-container h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.mainpage-container p {
+    font-size: 1.5rem;
+}
+
+.mainpage-container button {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.mainpage-button {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.mainpage-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.getstarted-btn {
+    background-color: var(--lightblue);
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.getstarted-btn:hover {
+    background-color: var(--lightblue);
+}
+
+.github-btn {
+    background-color: var(--white);
+    color: var(--lightblue);
+    border: 0.2px solid var(--lightblue);
+    outline: none;
+}

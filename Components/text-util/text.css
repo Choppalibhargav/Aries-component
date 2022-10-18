@@ -1,0 +1,67 @@
+@import url(../../basic.css);
+h1 {
+    font-size: var(--xxl-size);
+    line-height: var(--xxxl-size);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: var(--xl-size);
+    line-height: var(--xxl-size);
+}
+
+h3 {
+    font-size: var(--lg-size);
+    line-height: var(--xl-size);
+}
+
+h4 {
+    font-size: var(--md-size);
+    line-height: var(--lg-size);
+}
+
+h5 {
+    font-size: var(--sm-size);
+    line-height: var(--md-size);
+}
+
+h6 {
+    font-size: var(--xs-size);
+    line-height: var(--sm-size);
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-s {
+    font-size: 0.6rem;
+}
+
+.text-m {
+    font-size: 1rem;
+}
+
+.text-l {
+    font-size: 1.4rem;
+}
+
+.text-xl {
+    font-size: 1.8rem;
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.dark-gray {
+    color: var(--dark-gray);
+}

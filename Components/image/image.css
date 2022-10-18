@@ -1,0 +1,21 @@
+@import url(../../basic.css);
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+}
+
+.square {
+    height: 20rem;
+    width: 20rem;
+}
+
+.container-250px {
+    width: 30rem;
+}
