@@ -1,5 +1,5 @@
 @import url(../style.css);
-@import url(../aems.css);
+@import url(../aries.css);
 .docs-container {
     display: grid;
     grid-template-columns: 16rem 1fr;

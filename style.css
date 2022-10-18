@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--lightblue);
+    background-color: var(--nav);
     padding: 1rem 3rem;
     font-weight: 500;
     align-items: center;
@@ -75,7 +75,7 @@
 }
 
 .getstarted-btn {
-    background-color: var(--lightblue);
+    background-color: var(--nav);
     outline: none;
     border: none;
     color: white;
@@ -87,7 +87,7 @@
 
 .github-btn {
     background-color: var(--white);
-    color: var(--lightblue);
-    border: 0.2px solid var(--lightblue);
+    color: var(--nav);
+    border: 0.2px solid var(--nav);
     outline: none;
 }

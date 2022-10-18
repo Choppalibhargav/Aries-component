@@ -20,7 +20,7 @@
     --white: #ffffff;
     --crimson: #dc143c;
     --lightRed: #f44336;
-    --nav: #488A99;
+    --nav: #ea580c;
     /* font size */
     --xxxl-size: 64px;
     --xxl-size: 48px;
@@ -40,7 +40,7 @@ body {
 }
 
 .info {
-    background-color: var(--lightblue);
+    background-color: var(--nav);
     color: var(--white);
 }
 

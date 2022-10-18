@@ -22,7 +22,7 @@
 
 .outline-info {
     color: var(--lightblue);
-    border: 2px solid var(--lightblue);
+    border: 2px solid var(--nav);
     background: transparent;
 }
 
